@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// @ts-check
+import createNextIntlPlugin from "next-intl/plugin";
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin(
+  // Specify a custom path here
+  "./src/config/translation/config/i18n.ts"
+);
+
+/** @type {import('next').NextConfig} */
+const config = {};
+
+export default withNextIntl(config);

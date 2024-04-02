@@ -1,0 +1,95 @@
+import ThemeProvider from "@/core/providers/themeProvider";
+import { Cairo } from "next/font/google";
+import { ReactNode } from "react";
+import TranslationX from "@/config/translation/translation";
+import InfoX from "@/config/info/info";
+import Header from "@/ui/sections/header/header";
+import Footer from "@/ui/sections/footer/footer";
+import type { Viewport } from "next";
+import ThemeX from "@/config/theme/theme";
+import getLangDirection from "@/core/utils/langDirection";
+import WhatsappFloatButton from "@/ui/components/costoum/whatsappFloatButton";
+import GradientBackground from "@/ui/components/basic/gradientBackground";
+
+const font = Cairo({ subsets: ["arabic"] });
+
+type Props = {
+  children: ReactNode;
+  params: { locale: string };
+};
+
+export function generateStaticParams() {
+  return TranslationX.locales.map((locale) => ({ locale }));
+}
+
+//====================================================================================
+// Viewport
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // userScalable: false,
+  // minimumScale: 1,
+  // maximumScale: 4,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: ThemeX.themeColorLight },
+    { media: "(prefers-color-scheme: dark)", color: ThemeX.themeColorDark },
+  ],
+};
+
+//====================================================================================
+// Metadata
+export async function generateMetadata({
+  params: { locale },
+}: Omit<Props, "children">) {
+  const t = await TranslationX.getTranslations({
+    locale,
+    namespace: TranslationX.namespace.metadata,
+  });
+
+  return {
+    metadataBase: new URL(InfoX.appURL),
+    title: {
+      template: t("title") + " | %s",
+      default: t("title"),
+    },
+    description: t("description"),
+    manifest: "/manifest.json",
+    icons: {
+      icon: ["/favicon/favicon.svg"],
+      apple: ["/favicon/apple-180x180.png"],
+      shortcut: ["/favicon/apple-180x180.png"],
+    },
+    openGraph: {
+      title: t("OpenGraph.title"),
+      description: t("OpenGraph.description"),
+      siteName: t("OpenGraph.site"),
+      url: InfoX.appURL,
+      locale: locale,
+      type: "website",
+      images: [
+        {
+          url: "/openGraph/open-graph-1.png",
+          width: 1200,
+          height: 630,
+          alt: t("OpenGraph.img-alt"),
+        },
+      ],
+    },
+  };
+}
+
+//====================================================================================
+// Layout
+export default function LocaleLayout({ children, params: { locale } }: Props) {
+  // Enable static rendering
+  TranslationX.setRequestLocale(locale);
+
+  return (
+    <html lang={locale} dir={getLangDirection(locale)} suppressHydrationWarning>
+      <body className={font.className} suppressHydrationWarning>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  );
+}

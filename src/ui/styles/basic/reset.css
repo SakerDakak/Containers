@@ -1,0 +1,13 @@
+@import url("./shadcn-ui.css");
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  line-height: 1.4rem;
+}
+*::selection {
+  background-color: hsla(var(--primary));
+  color: #fff;
+}

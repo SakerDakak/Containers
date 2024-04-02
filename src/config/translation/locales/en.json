@@ -1,0 +1,135 @@
+{
+  "Basic": {
+    "logo-alt": "Logo",
+    "Theme": {
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System",
+      "screen-reader": "Toggle Theme"
+    },
+    "Language": {
+      "screen-reader": "Toggle Language"
+    }
+  },
+  "Metadata": {
+    "title": "Containers",
+    "description": "description",
+    "OpenGraph": {
+      "title": "Containers",
+      "description": "description",
+      "site": "site",
+      "img-alt": "img-alt"
+    }
+  },
+  "NotFound": {
+    "title": "Not Found Page",
+    "go-home": "Go Home"
+  },
+  "Error": {
+    "title": "Error!"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "order": "Get Order",
+    "faq": "FAQs",
+    "contact": "Contact Us"
+  },
+  "Footer": {
+    "copyright": "Copyright © {year}, All Rights Reserved.",
+    "description": "A Saudi company based in Riyadh with branches in Hong Kong and Gonzhou in the Republic of China. It possesses experience and knowledge in the field of import, export and logistics services through accumulated experiences and agreements that have lasted for years.",
+    "contant": "Contant Us",
+    "social": "Social Media",
+    "navigation": "Quick Links"
+  },
+  "Home": {
+    "hero": {
+      "section": "Containers",
+      "title": "You can always count on us",
+      "sub-title": "We are fully prepared and highly capable to provide business advisory and logistical services for importing all goods from China",
+      "but-contant": "Contant Us",
+      "img-alt": ""
+    }
+  },
+  "About": {
+    "header": {
+      "text": "",
+      "span": ""
+    },
+    "sub-header": "",
+    "why-us": {
+      "section": "Why Us",
+      "title": "We provide full range global logistics solution",
+      "sub-title": "It was launched within Chinese ports with a specialized, experienced and efficient team, until we were able to build a good reputation in record time. We specialize in importing from China for government and private sectors and individuals, and thanks to our highly experienced cadres who seek to provide first-class services in terms of quality, cost and solutions, We are fully prepared and highly capable to provide commercial, advisory and logistical services for importing all goods from China.",
+      "features-1": "Delivery on Time",
+      "features-2": "Competitive cost",
+      "features-3": "Credibility in work",
+      "features-4": "Accuracy in handling",
+      "img-alt": ""
+    }
+  },
+  "Services": {
+    "header": {
+      "text": "",
+      "span": ""
+    },
+    "sub-header": ""
+  },
+  "GetOrder": {
+    "header": {
+      "text": "",
+      "span": ""
+    },
+    "sub-header": ""
+  },
+  "FAQ": {
+    "header": {
+      "text": "The",
+      "span": "Frequently Asked Questions"
+    },
+    "sub-header": "Everything You Need To Know About Us",
+    "section": "FAQs",
+    "title": "Need help with something? Here are our most frequently asked questions",
+
+    "qus-1": "What distinguishes you as an import company from China?",
+    "ans-1": "Experience is the most important element in the field of import and export",
+    "qus-2": "How is your work going? What methods do you follow?",
+    "ans-2": "Specify the products you wish to import, in addition to their quantities and types.\nCollect everything related to the standards and specifications of the goods and send them to the factories\nVerifying goods certificates\nMonitoring the quality of goods and their conformity according to the required specifications\nFinal inspection of the goods and then packaging\nShipping and customs clearance",
+    "qus-3": "Is it possible to ship an order within China?",
+    "ans-3": "We provide shipping of your orders between cities in China, in addition to storing the goods.",
+    "qus-4": "Is it possible to ship to Gulf countries and other countries?",
+    "ans-4": "We ship to all countries of the world",
+    "qus-5": "How long does it usually take to purchase and send an order?",
+    "ans-5": "If the product is ready, the shipping period only takes (the average shipping period is 25 days)\nProducts that need to be manufactured (the manufacturing period ranges from 7 days to a month) have a shipping period added."
+  },
+  "Contact": {
+    "address": "Riyadh, Saudi Arabia",
+    "header": {
+      "text": "Get",
+      "span": "In Touch"
+    },
+    "section": "Contact Us",
+    "sub-header": "Do not hesitate to contact us, we are here to serve you at any time",
+    "map": {
+      "section": "Our Location",
+      "title": "Come and visit us at the following address, We are happy to have you come"
+    }
+  },
+  "CTA": {
+    "title": "Ready To Get Started?",
+    "sub-title": "We are fully prepared and highly capable to provide business advisory and logistical services for importing all goods from China",
+    "button": "Let's Go",
+    "img-alt": ""
+  },
+  "Customers": {
+    "title": "Our customers make us great",
+    "sub-title": "These wonderful people are our success partners and we are proud of them, Be one of them.",
+    "img-alt": "Customers Logo"
+  },
+  "Shippings": {
+    "title": "Contracted with the best shipping companies",
+    "sub-title": "You can choose from many contracted shipping companies easily.",
+    "img-alt": "Shipping Logo"
+  }
+}
