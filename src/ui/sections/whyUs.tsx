@@ -21,7 +21,7 @@ export default function WhyUs() {
         <div className="space-y-6 text-center md:text-start">
           <SectionTitle section={t("section")} />
           <p className="title-lg">{t("title")}</p>
-          <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+          <p className="sub-title">
             {t("sub-title")}
           </p>
           <div

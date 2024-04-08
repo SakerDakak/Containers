@@ -15,7 +15,7 @@ export default function ContantCard({ icon, text, dir, href }: Props) {
       target="_blank"
       className="
     transition-all duration-500
-    border p-10 rounded-md text-center space-y-6 hover:border-primary hover:bg-gray-50 dark:bg-gray-900 hover:dark:bg-neutral-800 cursor-pointer hover:-translate-y-2"
+    border p-7 md:p-10 rounded-md text-center space-y-3 md:space-y-6 hover:border-primary hover:bg-gray-50 dark:bg-gray-900 hover:dark:bg-neutral-800 cursor-pointer hover:-translate-y-2"
     >
       <Icon icon={icon} className="text-4xl text-primary mx-auto" />
       <p className="text-xl" dir={dir}>

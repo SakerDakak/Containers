@@ -1,14 +1,11 @@
 import ImageX from "@/config/assets/images";
 import TranslationX from "@/config/translation/translation";
-import { Button } from "@/ui/components/shadcn-ui/button";
 import MainLayout from "@/ui/layouts/main";
 import CTA from "@/ui/sections/cta";
 import Customers from "@/ui/sections/customers";
-import Faqs from "@/ui/sections/faqs";
-import Header from "@/ui/sections/header/header";
 import Hero from "@/ui/sections/hero/hero";
+import Map from "@/ui/sections/map";
 import WhyUs from "@/ui/sections/whyUs";
-import Image from "next/image";
 
 export default function FAQPage({ params }: { params: any }) {
   TranslationX.setRequestLocale(params.locale);
@@ -24,6 +21,7 @@ export default function FAQPage({ params }: { params: any }) {
       />
       <WhyUs/>
       <Customers/>
+      <Map/>
       <CTA/>
     </MainLayout>
   );

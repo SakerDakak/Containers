@@ -5,14 +5,23 @@
   .accordionOpen[data-state="open"] {
     @apply text-primary;
   }
-}
-@layer components {
   .title {
     @apply font-bold text-3xl leading-relaxed;
+  }
+  .title-sm {
+    @apply font-bold text-xl leading-normal;
   }
   .title-lg {
     @apply font-bold text-4xl leading-relaxed;
   }
+  .sub-title {
+    @apply text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide;
+  }
+  .sub-title-lg {
+    @apply text-base leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide;
+  }
+}
+@layer components {
   .container {
     @apply mx-auto max-w-[38rem] md:max-w-[70rem] lg:max-w-[80rem];
     @apply px-app md:px-app-md lg:px-app-lg;

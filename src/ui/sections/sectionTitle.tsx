@@ -10,7 +10,7 @@ export default function SectionTitle({
   return (
     <h2
       className={clsx(
-        "text-base bg-primary inline-block py-1.5 px-4 rounded-md text-white",
+        "text-base font-semibold bg-primary inline-block py-1.5 px-4 rounded-md text-white",
         className
       )}
     >

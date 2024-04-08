@@ -1,6 +1,6 @@
 {
   "Basic": {
-    "logo-alt": "Logo",
+    "logo-alt": "The logo is three sea containers side by side",
     "Theme": {
       "dark": "Dark",
       "light": "Light",
@@ -9,16 +9,17 @@
     },
     "Language": {
       "screen-reader": "Toggle Language"
-    }
+    },
+    "show-more": "Show more..."
   },
   "Metadata": {
     "title": "Containers",
-    "description": "description",
+    "description": "A Saudi company based in Riyadh, with branches in Hong Kong and Gonzhou in the Republic of China, and possesses experience and knowledge in the field of import, export and logistics services.",
     "OpenGraph": {
       "title": "Containers",
-      "description": "description",
-      "site": "site",
-      "img-alt": "img-alt"
+      "description": "A Saudi company based in Riyadh, with branches in Hong Kong and Gonzhou in the Republic of China, and possesses experience and knowledge in the field of import, export and logistics services.",
+      "site": "Containers",
+      "img-alt": "The logo is three sea containers side by side"
     }
   },
   "NotFound": {
@@ -31,7 +32,6 @@
   "Navbar": {
     "home": "Home",
     "about": "About",
-    "services": "Services",
     "order": "Get Order",
     "faq": "FAQs",
     "contact": "Contact Us"
@@ -49,15 +49,15 @@
       "title": "You can always count on us",
       "sub-title": "We are fully prepared and highly capable to provide business advisory and logistical services for importing all goods from China",
       "but-contant": "Contant Us",
-      "img-alt": ""
+      "img-alt": "Container"
     }
   },
   "About": {
     "header": {
-      "text": "",
-      "span": ""
+      "text": "Get to Know Us",
+      "span": "Building Mutual Trust"
     },
-    "sub-header": "",
+    "sub-header": "Learn about our company, what we do, and become one of our clients",
     "why-us": {
       "section": "Why Us",
       "title": "We provide full range global logistics solution",
@@ -66,22 +66,100 @@
       "features-2": "Competitive cost",
       "features-3": "Credibility in work",
       "features-4": "Accuracy in handling",
-      "img-alt": ""
+      "img-alt": "Seaport for import"
     }
   },
   "Services": {
-    "header": {
-      "text": "",
-      "span": ""
-    },
-    "sub-header": ""
+    "our-services": {
+      "section": "Our Services",
+      "title": "Discover Our Services and Request Yours Now",
+      "sub-title": "We provide all the commercial and logistical services needed by companies, institutions, government entities, and individuals.",
+      "service-1": "Finding the best quality and price factories",
+      "service-2": "Organizing exhibitions and conferences",
+      "service-3": "Drafting commercial contracts between the merchant and the factory",
+      "service-4": "Business consultations in our field",
+      "service-5": "Shipping goods to all countries worldwide",
+      "service-6": "Issuing government certificates and invoices",
+      "img-alt": "Seaport for import"
+    }
   },
   "GetOrder": {
     "header": {
-      "text": "",
-      "span": ""
+      "text": "Order Your",
+      "span": "Goods from China"
     },
-    "sub-header": ""
+    "sub-header": "Everything you need to know from placing an order to receiving it",
+    "section": "How It Works",
+    "title": "Import in safe and easy steps",
+    "sub-title": "These are all the steps in detail to order a product from China in a series of easy and safe steps",
+    "how-it-works": {
+      "stage-1": {
+        "title": "Receiving Customer's Order",
+        "img-alt": "A man signs",
+        "step-1": "We receive the initial order from the customer via email",
+        "step-2": "An initial file is opened for the customer containing all their data",
+        "step-3": "We review the order and determine the deposit amount",
+        "step-4": "We request the customer to transfer the deposit amount",
+        "step-5": "We review the order and prepare the data in the approved form"
+      },
+      "stage-2": {
+        "title": "Sending the Order to China",
+        "img-alt": "Building in China",
+        "step-1": "We send the order to the China team via email",
+        "step-2": "The China team searches for the best quality with the best price",
+        "step-3": "The duration of searching and shortlisting for quotation is a week from the email sending date"
+      },
+      "stage-3": {
+        "title": "Receiving Quotation from China",
+        "img-alt": "Busy port",
+        "step-1": "We receive the quotation from China via email",
+        "step-2": "We add the company's approved margin to the quotation",
+        "step-3": "We review the order with the top management",
+        "step-4": "We approve the final price quotation"
+      },
+      "stage-4": {
+        "title": "Sending Quotation to Customer",
+        "img-alt": "A calculator on top of a financial account sheet",
+        "step-1": "We send the quotation to the customer via email",
+        "step-2": "Customer responds within the validity period of the quotation",
+        "step-3": "Customer approves the quotation definitively via email"
+      },
+      "stage-5": {
+        "title": "Contract Signing",
+        "img-alt": "Contract Signing",
+        "step-1": "Preparing, drafting, and reviewing the contract based on the approved quotation",
+        "step-2": "Communicating with the customer to set the contract signing time at the company's premises",
+        "step-3": "Signing, stamping, and archiving the contract in the customer's file",
+        "step-4": "Receiving the initial payment as per the contract agreement"
+      },
+      "stage-6": {
+        "title": "Order Confirmation",
+        "img-alt": "Containers",
+        "step-1": "Sending the final order to the China team via email based on the agreed contract terms",
+        "step-2": "The China team communicates with the factory and reaches an agreement with them",
+        "step-3": "Transferring the advance payment to the China team"
+      },
+      "stage-7": {
+        "title": "Working on the Order",
+        "img-alt": "A man wraps goods in a warehouse",
+        "step-1": "The China team agrees with the approved factory",
+        "step-2": "Manufacturing of the required product begins with the contracted specifications",
+        "step-3": "Mutual coordination to know the shipping date",
+        "step-4": "Receiving the second installment of the contract",
+        "step-5": "Shipping the product from China",
+        "step-6": "Confirming with the customer about preparing the final payment"
+      },
+      "stage-8": {
+        "title": "Product Arrival",
+        "img-alt": "Two men shake hands",
+        "step-1": "Preparing the required documents for the entry of goods through government websites",
+        "step-2": "Informing the customer of the arrival date of the goods and preparing the warehouse",
+        "step-3": "Receiving the goods from customs and clearing customs",
+        "step-4": "Receiving the final installment from the customer",
+        "step-5": "Delivering the goods to the customer",
+        "step-6": "Settling accounts with finance and closing the order file"
+      }
+    }
   },
   "FAQ": {
     "header": {

@@ -11,11 +11,12 @@ export default class TranslationX {
   //--------------------------------------------------------------------
   // Config
   static readonly defaultLocale = "en";
-  static readonly locales = ["en", "ar"];
+  static readonly locales = ["en", "ar","zh"];
   static readonly localePrefix = LocalePrefix.never;
   static readonly localeNames: LocaleName[] = [
     { name: "English", code: "en", show: "🇬🇧" },
     { name: "عربي", code: "ar", show: "🇸🇦" },
+    { name: "汉语", code: "zh", show: "🇨🇳" },
   ];
   //--------------------------------------------------------------------
   // Functions

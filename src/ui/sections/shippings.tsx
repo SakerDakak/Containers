@@ -22,7 +22,7 @@ export default function Shippings() {
                   alt=""
                   width={100}
                   height={100}
-                  className="filter dark:invert grayscale hover:filter-none hover:invert-0 hover:grayscale-0 transition-all hover:scale-105 hover:-translate-y-2 rounded-md"
+                  className="filter [&:not(:hover)]:dark:invert grayscale hover:filter-none hover:grayscale-0 transition-all hover:scale-105 hover:-translate-y-2 rounded-md"
                 />
               );
             })}

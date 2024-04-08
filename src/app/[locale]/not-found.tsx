@@ -18,7 +18,7 @@ export default function NotFoundPage({ params }: { params: any }) {
         </div>
         <Link
           href="/"
-          className="mt-5 text-sm font-medium border-2 border-red-500 hover:bg-red-500 px-8 py-3 rounded-md"
+          className="mt-5 text-sm font-medium border-2 border-red-500 hover:bg-red-500 hover:text-white px-8 py-3 rounded-md"
         >
           {t("go-home")}
         </Link>

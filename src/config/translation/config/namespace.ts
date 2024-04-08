@@ -14,6 +14,7 @@ export enum TranslationNamespaceX {
 
   getOrder = "GetOrder",
   services = "Services",
+  ourServices = "Services.our-services",
 
   contact = "Contact",
   contactMap = "Contact.map",

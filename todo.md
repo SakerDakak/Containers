@@ -1,0 +1,11 @@
+- add china lanugage ✔️
+- add some sections has images ✔️
+- add images and discreption in meta & open graph & pwa ✔️
+- add images in pwa ✔️
+- complate home page ✔️
+- complate about page ✔️
+- create get order page ✔️
+- edit contact us page ✔️
+- change gradint background image ✔️
+- fix performance affter publish in web
+- add animation

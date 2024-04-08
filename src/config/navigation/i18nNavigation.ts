@@ -9,7 +9,7 @@ export const pathnames = {
   "/": "/",
   "/about": "/about",
   "/get-order": "/get-order",
-  "/services": "/services",
+  // "/services": "/services",
   "/faq": "/faq",
   "/contact": "/contact",
 } satisfies Pathnames<typeof TranslationX.locales>;

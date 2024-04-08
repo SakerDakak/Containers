@@ -7,7 +7,6 @@ export default function GradientBackground() {
       <div className="w-[108rem] flex-none flex justify-end">
         <Image
           className="w-[90rem] flex-none max-w-none opacity-80 dark:opacity-50"
-          // className="absolute top-0 w-full opacity-80 dark:opacity-50"
           width={1920}
           height={500}
           alt=""

@@ -16,6 +16,8 @@ export default class ImageX {
   static readonly faqHero: string = "/images/faqHero.jpg";
   static readonly aboutHero: string = "/images/about-hero.jpg";
   static readonly about_1: string = "/images/about-1.jpg";
+  static readonly ourServices: string = "/images/our-services.jpg";
+  static readonly ourServices_2: string = "/images/our-services-2.jpg";
 
   // Containers
   static readonly container_1: string = "/images/container/container-1.png";
@@ -47,6 +49,10 @@ export default class ImageX {
   static readonly customer_7: string = "/images/customers/logo-7.png";
   static readonly customer_8: string = "/images/customers/logo-8.png";
   static readonly customer_9: string = "/images/customers/logo-9.png";
+
+  static readonly stage = (num: number): string =>
+    `/images/howItWorks/stage-${num}.jpg`;
+  static readonly stage_1: string = "/images/howItWorks/stage-1.jpg";
 
   // Shapes
   static readonly questionMark: string = "/images/shapes/question-mark.svg";

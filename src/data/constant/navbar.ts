@@ -10,10 +10,6 @@ export const NavbarItemList: NavbarItem[] = [
     path: "/about",
   },
   {
-    title: "services",
-    path: "/services",
-  },
-  {
     title: "order",
     path: "/get-order",
   },

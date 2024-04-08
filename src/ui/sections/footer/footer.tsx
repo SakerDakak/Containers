@@ -78,25 +78,41 @@ export default function Footer({
             <ul className="list-none flex gap-4 text-lg [&>*]:transition-colors [&>*:hover]:text-primary">
               {/* Facebook */}
               <li>
-                <a href={InfoX.socialMedia.facebook} target="_blank">
+                <a
+                  href={InfoX.socialMedia.facebook}
+                  aria-label="Facebook"
+                  target="_blank"
+                >
                   <Icon icon={IconX.facebook} />
                 </a>
               </li>
               <li>
                 {/* Instagram */}
-                <a href={InfoX.socialMedia.instagram} target="_blank">
+                <a
+                  href={InfoX.socialMedia.instagram}
+                  aria-label="Instagram"
+                  target="_blank"
+                >
                   <Icon icon={IconX.instagram} />
                 </a>
               </li>
               {/* Snapchat */}
               <li>
-                <a href={InfoX.socialMedia.snapchat} target="_blank">
+                <a
+                  href={InfoX.socialMedia.snapchat}
+                  aria-label="Snapchat"
+                  target="_blank"
+                >
                   <Icon icon={IconX.snapchat} />
                 </a>
               </li>
               {/* X Twitter */}
               <li>
-                <a href={InfoX.socialMedia.xTwitter} target="_blank">
+                <a
+                  href={InfoX.socialMedia.xTwitter}
+                  aria-label="Twitter"
+                  target="_blank"
+                >
                   <Icon icon={IconX.xTwitter} />
                 </a>
               </li>
