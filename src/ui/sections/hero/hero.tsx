@@ -31,7 +31,7 @@ export default function Hero({
         </div>
         <div className="flex flex-col">
           <Image
-            className=" md:my-10 rounded-md "
+            className=" md:my-10 rounded-md w-auto"
             src={img || ImageX.container_2}
             width={400}
             height={100}

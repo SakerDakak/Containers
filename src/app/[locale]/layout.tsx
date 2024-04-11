@@ -1,17 +1,13 @@
 import ThemeProvider from "@/core/providers/themeProvider";
-import { Cairo } from "next/font/google";
+import { Cairo} from "next/font/google";
 import { ReactNode } from "react";
 import TranslationX from "@/config/translation/translation";
 import InfoX from "@/config/info/info";
-import Header from "@/ui/sections/header/header";
-import Footer from "@/ui/sections/footer/footer";
 import type { Viewport } from "next";
 import ThemeX from "@/config/theme/theme";
 import getLangDirection from "@/core/utils/langDirection";
-import WhatsappFloatButton from "@/ui/components/costoum/whatsappFloatButton";
-import GradientBackground from "@/ui/components/basic/gradientBackground";
 
-const font = Cairo({ subsets: ["arabic"] });
+const font = Cairo({ subsets: ["arabic","latin","latin-ext"] });
 
 type Props = {
   children: ReactNode;

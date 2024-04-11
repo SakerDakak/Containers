@@ -8,7 +8,7 @@ export default function HeaderContainer({ children }: { children: ReactNode }) {
 
   const onScroll = useCallback(() => {
     setScrollY(window.scrollY);
-  }, [scrollY]);
+  }, []);
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", onScroll);

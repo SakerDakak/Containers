@@ -21,7 +21,7 @@ export default function Map({
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
-          title="Google Map"
+          title={t("iframe-title")}
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>

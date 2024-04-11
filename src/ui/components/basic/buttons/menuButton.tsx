@@ -10,7 +10,8 @@ export default function MenuButton() {
     <Button
       variant="outline"
       size="icon"
-      className="md:hidden text-xl z-50"
+      className="md:hidden text-xl z-50 bg-white/70 dark:bg-black/30"
+      aria-label="Menu Button"
       onClick={() => setIsOpenNav(!isOpenNav)}
     >
       <Icon icon={isOpenNav ? IconX.menuClose : IconX.menuOpen} />

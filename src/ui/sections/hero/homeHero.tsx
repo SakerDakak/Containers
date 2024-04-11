@@ -11,7 +11,7 @@ export default function HomeHero() {
       <div className="flex flex-col gap-6 lg:gap-8 pt-10 lg:px-24 xl:px-0 xl:py-20 text-center xl:text-start">
         <p className="text-red-600 text-xl">{t("hero.section")}</p>
         <h1
-          className="text-[5rem] leading-tight xl:leading-tight font-bold bg-gradient-to-b
+          className="text-[5rem] leading-tight xl:leading-tight capitalize font-bold bg-gradient-to-b
         from-black via-slate-800 to-slate-600 bg-clip-text text-transparent
         dark:from-slate-200 dark:via-slate-200 dark:to-slate-500
         "

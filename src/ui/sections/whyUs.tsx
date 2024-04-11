@@ -12,7 +12,7 @@ export default function WhyUs() {
         flex flex-col-reverse md:flex-row gap-10 lg:gap-16 xl:gap-28 justify-center items-center"
       >
         <Image
-          className="rounded-sm md:w-2/5 lg:w-1/2"
+          className="rounded-sm w-auto md:w-2/5 lg:w-1/2"
           alt={t("img-alt")}
           width={450}
           height={800}

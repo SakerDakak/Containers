@@ -191,7 +191,8 @@
     "sub-header": "Do not hesitate to contact us, we are here to serve you at any time",
     "map": {
       "section": "Our Location",
-      "title": "Come and visit us at the following address, We are happy to have you come"
+      "title": "Come and visit us at the following address, We are happy to have you come",
+      "iframe-title":"Google Map"
     }
   },
   "CTA": {

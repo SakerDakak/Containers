@@ -7,9 +7,11 @@ import ShowMore from "../components/basic/showMore";
 
 export default function HowItWorks({
   locale,
+  link = "/",
   isSmall = false,
 }: {
   locale: string;
+  link?: string;
   isSmall?: boolean;
 }) {
   const t = TranslationX.t(TranslationX.namespace.getOrder);
@@ -21,7 +23,7 @@ export default function HowItWorks({
         <div className="title-lg">{t("title")}</div>
         <div className="sub-title">{t("sub-title")}</div>
       </div>
-      <ShowMore disable={!isSmall} link="/contact">
+      <ShowMore disable={!isSmall} link={link}>
         <div className="container flex flex-col gap-10">
           {stagesHowItWorks
             .slice(0, isSmall ? 3 : undefined)
