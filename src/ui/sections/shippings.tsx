@@ -10,7 +10,9 @@ export default function Shippings() {
       <div className="container flex flex-col md:flex-row gap-20 md:gap-32 items-center justify-between">
         <div className="space-y-4 text-center md:text-start">
           <h2 className="title-lg">{t("title")}</h2>
-          <div className="text-xl text-gray-400">{t("sub-title")}</div>
+          <div className="text-xl text-gray-500 dark:text-gray-400">
+            {t("sub-title")}
+          </div>
         </div>
         <div className="flex flex-col md:flex-row gap-20 md:gap-32 items-center justify-between">
           <div className="grid gap-y-4 gap-x-8 grid-cols-3">

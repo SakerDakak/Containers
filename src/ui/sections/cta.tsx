@@ -13,7 +13,7 @@ export default function CTA({ className = "mb-10" }: { className?: string }) {
        flex flex-col items-center lg:justify-center  text-center bg-primary rounded-md w-full relative"
       >
         <p className="text-3xl font-bold text-white">{t("title")}</p>
-        <p className="text-lg pt-4 pb-6 text-gray-100 max-w-[40rem]">
+        <p className="text-lg pt-4 pb-6 text-white max-w-[40rem]">
           {t("sub-title")}
         </p>
         <Link

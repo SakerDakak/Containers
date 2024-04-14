@@ -122,7 +122,7 @@ export default function Footer({
       )}
 
       <div className="border-t">
-        <p className="text-center text-sm py-2 text-gray-400">
+        <p className="text-center text-sm py-2  text-gray-500 dark:text-gray-400">
           {t("copyright", { year: new Date().getFullYear() })}
         </p>
       </div>

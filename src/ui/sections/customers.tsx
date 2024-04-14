@@ -24,7 +24,7 @@ export default function Customers() {
         </div>
         <div className="space-y-4 text-center md:text-start order-1 md:order-2">
           <h2 className="title-lg">{t("title")}</h2>
-          <div className="text-xl text-gray-400">{t("sub-title")}</div>
+          <div className="text-xl text-gray-500 dark:text-gray-400">{t("sub-title")}</div>
         </div>
       </div>
     </div>

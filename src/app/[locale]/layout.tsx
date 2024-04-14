@@ -1,5 +1,5 @@
 import ThemeProvider from "@/core/providers/themeProvider";
-import { Cairo} from "next/font/google";
+import { El_Messiri} from "next/font/google";
 import { ReactNode } from "react";
 import TranslationX from "@/config/translation/translation";
 import InfoX from "@/config/info/info";
@@ -7,7 +7,7 @@ import type { Viewport } from "next";
 import ThemeX from "@/config/theme/theme";
 import getLangDirection from "@/core/utils/langDirection";
 
-const font = Cairo({ subsets: ["arabic","latin","latin-ext"] });
+const font = El_Messiri({ subsets: ["arabic", "latin", "latin-ext"] });
 
 type Props = {
   children: ReactNode;

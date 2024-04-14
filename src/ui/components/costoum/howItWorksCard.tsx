@@ -56,7 +56,7 @@ export default function HowItWorksCard({
           height={300}
           alt={imgAlt}
           className={clsx(
-            "rounded-md transition-all group-hover:-translate-y-2 group-hover:scale-105 group-hover:shadow-lg",
+            "rounded-md transition-all group-hover:-translate-y-2 group-hover:scale-105 group-hover:shadow-lg auto",
             getLangDirection(locale) === "ltr"
               ? inverse
                 ? "group-hover:-rotate-6"

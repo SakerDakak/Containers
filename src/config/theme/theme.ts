@@ -1,6 +1,6 @@
 
 export default class ThemeX {
-  static readonly defaultTheme = "system";
+  static readonly defaultTheme = "dark";
   static readonly enableSystem = true;
   static readonly themes = ["dark", "light"];
   static readonly themeColorLight = "#ffffff";
